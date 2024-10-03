@@ -8,7 +8,10 @@ Created on September 25, 2024
 Updated by JT on October 2, 2024 at 10.45 PM
 
 This css file styles the index.html file to be approximately the same as the
-one displayed in the HW2.pdf homework assignment.
+one displayed in the HW2.pdf homework assignment. CSS was used to modify the
+background colors, set background images, set margins, manipulate elements
+and images to have text wrap, remove hyperlink underlines, and change 
+bullet point symbols.
 */
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
