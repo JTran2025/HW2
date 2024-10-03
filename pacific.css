@@ -1,0 +1,99 @@
+/*
+File: pacific.css
+GUI Assignment: HW2 Style a Site with External CSS
+Julian Tran, UMass Lowell Computer Science, Julian_Tran@student.uml.edu
+Copyright (c) 2024 by Julian. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+Created on September 25, 2024 
+Updated by JT on October 2, 2024 at 10.45 PM
+
+This css file styles the index.html file to be approximately the same as the
+one displayed in the HW2.pdf homework assignment.
+*/
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-color: #00569f; /* continues gradient at bottom */
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("ptrbackground.jpg"); /* gradient background*/
+	margin: 20px 10px 70px 10px;
+}
+#wrapper {
+	width: 80%; /* main area of page 80% of page width */
+	min-width: 600px; 
+	margin: 0 auto 0 auto; /* center body horizontally */
+	background-color: #90c8e3;
+}
+nav {
+	float: left; /* nav floats left to position links to left side */
+	width: 190px; /* sidebar fixed width */
+}
+nav ul {
+	font-size: 1.2em;
+	list-style-type: none; /* removes buttons on links */ 
+	padding: 20px;
+	margin: 0;
+}
+nav a {
+	text-decoration: none; /* removes underlines */
+	color: #000033;
+	font-weight: bold;
+}
+nav a:visited {
+	color: #344873; /* nav links change color when visited */
+}
+nav a:hover {
+	color: #FFFFFF; /* nav links change color when hovered over */
+}
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+	background-image: url("sunset.jpg"); /* sets background image behind h1 */
+	background-repeat: no-repeat; /* disables repeating the image */
+	background-position: right; /* positions the image to the right */
+	background-color: #000033; /* fills in the rest of the space with color */
+	color: #FFFFFF;
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+img {
+	float: left; /* floats image to left for text to wrap around */
+	margin-right: 20px;
+}
+#content {
+	background-color: #FFFFFF;
+	margin-left: 190px; /* places contents of body right of nav bar */
+	padding: 1px 20px 15px 30px;
+}
+#content ul {
+	list-style-image: url("marker.gif"); /* changes bullet point symbol */
+	list-style-position: inside; /* aligns list and symbols with other texts */
+	margin: 10px 0px 20px 0px;
+}
+.resort {
+	color: #5e808d; /* turn Pacific Trails Resort in p1 and contact different color */
+	font-weight: bold;
+	padding: 0;
+}
+#contact {
+	font-size: 90%;
+}
+dt {
+	color: #000033;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	background-color: #FFFFFF;
+	font-style: italic;
+	font-size: 75%;
+	padding: 20px;
+	margin-left: 190px; /* places footer right of the nav bar */
+}
+
